@@ -1,1 +1,4 @@
 # WeatherJS
+
+* JavaScript
+* Bootswatch
