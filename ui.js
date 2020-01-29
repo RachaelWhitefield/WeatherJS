@@ -15,14 +15,14 @@ class UI {
 
     paint(data) {
         this.location.textContent = data.city_name; 
-        this.desc.textContent = data.temp; 
+        this.desc.textContent = `${data.temp}°`; 
         this.string.textContent = data.state_code; 
         // this.details.textContent = data.weather.description;
         // this.icon.setAttribute("src" , data.weather.icon);
         this.humidity.textContent = `Relative Humidity: ${data.rh}`;
-        this.feelsLike.textContent = `Feels Like: ${data.app_temp}`;
+        this.feelsLike.textContent = `Feels Like: ${data.app_temp}°`;
         this.dewpoint.textContent = `Dew Point: ${data.dewpt}`;
-        this.wind.textContent = `Wind: ${data.wind_spd}`;
+        this.wind.textContent = `Wind: ${data.wind_spd} mph`;
     }
 }
 
@@ -31,10 +31,10 @@ class UI {
 // INSTRUCTIONAL VIDEO CODE
 // class UI {
 //     constructor() {
-//         this.location = document.getElementById("w-location");    // city    
-//         this.desc = document.getElementById("w-desc");  // weather description
-//         this.string = document.getElementById("w-string");    // temperature
-//         this.details = document.getElementById("w-details");   // "partly cloudy"
+//         this.location = document.getElementById("w-location");        
+//         this.desc = document.getElementById("w-desc");  
+//         this.string = document.getElementById("w-string");    
+//         this.details = document.getElementById("w-details");   
 //         this.icon = document.getElementById("w-icon"); 
 //         this.humidity = document.getElementById("w-humidity");  
 //         this.feelsLike = document.getElementById("w-feels-like");

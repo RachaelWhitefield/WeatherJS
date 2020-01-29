@@ -7,11 +7,11 @@ class Weather {
 
     // Fetch weather from API
     async getWeather() {
-        const response = await fetch(`https://api.weatherbit.io/v2.0/current?city=${this.city}&state=${this.state}&key=${this.apiKey}`);
+        const response = await fetch(`https://api.weatherbit.io/v2.0/current?city=${this.city}&state=${this.state}&key=${this.apiKey}&units=I`);
 
         const responseData = await response.json();
 
-        return responseData.data;
+        return responseData.data[0];
     }
 
     // Change weather location
