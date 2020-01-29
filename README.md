@@ -4,3 +4,4 @@
 * Bootswatch
 * Bootstrap
 * Weatherbit API
+* JQuery
