@@ -5,6 +5,7 @@ Default city is Denver, CO.  Choose what city you would like the current weather
 
 ## See It In Action
 ![Start](assets/media/app1.gif)
+---
 ![Default City](assets/media/app2.gif)
 ![Info](assets/media/app3.gif)
 ![Modal Search](assets/media/app4.gif)
